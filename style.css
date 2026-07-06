@@ -1,0 +1,45 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    padding: 50px;
+}
+
+/* Header styling */
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Button styling */
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
